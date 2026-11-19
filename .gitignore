@@ -1,0 +1,33 @@
+# --- Large downloads (never commit) ---
+models/
+data/
+external/
+
+# --- Model weight files, wherever they end up ---
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# --- Python environments and caches ---
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Build output ---
+build/
+
+# --- Raw logs (keep the cleaned CSVs in results/) ---
+logs/
+*.log
+
+# --- Editor / OS clutter ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
